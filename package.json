@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_test_git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://graceunji:eun2135^*^0131@github.com/graceunji/nodejs_pratice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graceunji/nodejs_pratice/issues"
+  },
+  "homepage": "https://github.com/graceunji/nodejs_pratice#readme"
+}
