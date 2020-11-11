@@ -27,8 +27,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+// 해당하는 URL로 요청이 있을 때
 router.get('/load', function(req, res, next){
-	memoModel.find({}, function(err, data){
+	memoModel.find({}, function(err, data){ //find() 메소드 : SELECT * FROM users == db.users.find()
 		res.json(data);
 	});
 });
@@ -45,7 +46,7 @@ router.post('/write', function(req, res, next){
 	memo.date = date;
 	memo.comments = [];
 	
-	memo.save(function(err){
+	memo.save(function(err){ //객체를 생성하는 메소드
 		if(err) throw err;
 		else res.json({status:"SUCCESS"});
 	});
