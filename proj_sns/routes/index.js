@@ -6,7 +6,7 @@ var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
 var mongoose = require('mongoose');
-var db = mongoose.connect('mongodb+srv://root:Akl8sSI4O6fmtxai@mongo-sns.uwu4y.mongodb.net/mongo-sns?retryWrites=true&w=majority', {useNewUrlParser: true});
+var db = mongoose.connect('----deleted----', {useNewUrlParser: true});
 var Schema = mongoose.Schema;
 
 var Post = new Schema({
