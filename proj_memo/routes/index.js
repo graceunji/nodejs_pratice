@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 
 // 복잡한 웹 애플리케이션이라면 데이터베이스를 처리하는 모듈을 별도의 자바스크립트 파일로 생성하여 관리하는 것이 좋지만, 
 // 여기서 구현하고자 하는 예제는 비교적 단순하므로 페이지 라우팅을 담당하는 index.js에서 데이터 입출력을 처리
-mongoose.connect('mongodb+srv://dbUser:Akl8sSI4O6fmtxai@mongo-test.yd31m.mongodb.net/mongo-test?retryWrites=true&w=majority', {useNewUrlParser: true});
+mongoose.connect('----deleted----', {useNewUrlParser: true});
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, "connection error:"));
 db.once('open', () => {
